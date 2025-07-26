@@ -21,7 +21,7 @@ st.header("Free Chatbot (FLAN-T5 + PDF Reader)")
 
 # 📤 Sidebar for file upload
 with st.sidebar:
-    st.title("Upload your document")
+    st.title("Now Upload your document")
     file = st.file_uploader("Upload a PDF file and start asking questions", type="pdf")
 
 # 🧠 Load the embedding model (Sentence Transformers)

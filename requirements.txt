@@ -1,0 +1,10 @@
+#Tells Streamlit Cloud what libraries to installl
+streamlit
+PyPDF2
+langchain
+langchain-community
+langchain-huggingface
+transformers
+torch
+huggingface_hub
+faiss-cpu
